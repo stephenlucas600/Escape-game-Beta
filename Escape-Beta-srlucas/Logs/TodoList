@@ -1,0 +1,26 @@
+create interface
+
+make a test that checks if board return valid cordinate.
+
+Make a board method.
+
+create method to make grid array.
+
+make method to indicate available dicrections.
+
+1: have EscapeGameBuilder, and EscapePieceImpl implement attributes
+1.1: Create a PieceTypeDescriptorArray to handle piece attributes for EscapeGameBuilder
+2: Impliment advance movment for Squares (create movment methods and helper methods to implement these rules when move is called ).
+3: DONE implement piece attributes for EscapePieceImpl 
+4: DONE implement DIAGONAL movment limits
+5: DONE implement LINEAR movment limits
+6: DONE implement LINEAR movment limits
+7: DONE implement DISTANCE movment attribute to piece movment
+8: DONE implement JUMP movment attribute to piece movmeint
+9: DONE implement UNBLOCK movment attribute to piece movment
+10: DONE implement FLY movment attribute to piece movment
+11: Modify Move() to use the helper methods
+12: remove Piece when on exit
+12: Create a ORTHOSQUARE board
+13: Create a HEX Board
+14: Create a TRIANGLE board

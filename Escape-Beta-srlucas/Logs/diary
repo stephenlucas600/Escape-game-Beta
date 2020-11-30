@@ -1,0 +1,49 @@
+11/7 Staring to look over project and develpning a erly todo list
+
+11/10 attempted to make classes Main managerimp as a implementation of EscapeGameManager and CoordinatTypeSquare from Coordinate as practice to understand how the dependencies may work.
+Created XYCoordinate as a interface to used in conjunction with Coordinate to find the X, Y and disnance with other Coordinates.
+Set up EscapeGameBuilderTest tests
+Created a Escape.Square package to hold all programs used sole  for  square board
+
+11/11 add moveToCoordinate to  XYCoordinate interface.  added to the inializer methethod in PieceAttribute.
+
+11/12 add description to PieceAttribute, MovementPattern, PieceName, and PieceAttributeID.
+ added to the inializer methethod for PieceTypeDescriptor.
+ Create Game board Interface to base board creation on.
+ 
+ 11/13 using Hashmaps in MakeSquareBoard to hold Pieces and  Locations made for board.
+ made  inializer for MakeSquareBoard. makeCoordinate for square board. 
+ made makeEscapePiece and makeLocation for GameBoard
+ 
+ 11/14 create makeEscapePiece for  MakeSquareBoard, changed PieceMap to use PieceTypeDescriptor instead of EscapePiece.
+ 
+ 11/15 made PieceTypeDescriptor a implementaion of EscapePiece so GameBoard can use getPieceAt(). 
+take a PieceTypeDescriptor as agrument for makeEscapePiece instead  making a new EscapePiece in GameBoard
+
+11/16 overhall program, adding EscapePiecelmpl, implement EscapeGameBuilder, 
+Created AphaTest.
+
+11/17 reorder packages,  
+create CoordinateFactory, 
+changed makeSquareboard to EscapeBoard, 
+finish EscapePiecelmpl.
+implement move in EscapeBoard
+
+11/18
+Create Exception classes for Coordinate, Board, and EscapeGameIlitializationException
+Created TestBoardParts and TestSquareCoordinates
+Fix error in putPieceAt in EscapeBoard.
+merge makeLocation into setLocationType.
+
+11/19 Add more Test cases to test more parts of code
+added equals and hashCode in EscapeCoordinate to solve probelm of Hashmap not reconizing EscapeCoordinate inpute.
+
+11/23 Create todolist for Bata, Rearange classes into proper packages
+11/24 add pieces and attribues to EscapeGameBuilder
+11/25 Modify EscapePieiceimpl to take and get PiecetypeDesciptor, then Test change.
+make a isNearCluster method to return all nabores for a coordinate
+start make method to find shortest path.
+
+11/26 for EscapeGameBuilder greateed a class PieceTypeDescriptorArray to hold and get inilaize rules for particulare pieces
+11/28 Create class to throw error if the movmentPatter of a piece is not compatable with board type.
+11/30 Implemnt method pathClear and helper methods checkLine, CanMoveThrough and AtPieceMovesEnd in Game Board to help find 
